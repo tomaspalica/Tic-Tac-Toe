@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://tomaspalica.github.io/goit-js-hw-10/",
+  "homepage": "https://tomaspalica.github.io/Tic-Tac-Toe/",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "start": "parcel *.html",
+    "build": "parcel build src/*.html --public-url /Tic-Tac-Toe/"
   },
   "repository": {
     "type": "git",
