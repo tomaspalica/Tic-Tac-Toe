@@ -72,7 +72,6 @@ function updateUI(cellIndex) {
 // gets clicked cell gets the cells number and calls playerTurn and updateUI
 function cellClicked(e) {
   const clickedCell = e.target;
-  console.log(clickedCell);
   const cellIndex = parseInt(clickedCell.id.replace('cell-', '')) - 1;
   if (gameBoard[cellIndex] !== '' || !gameActive) {
     return;
